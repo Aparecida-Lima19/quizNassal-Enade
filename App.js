@@ -17,7 +17,8 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff',
+    backgroundColor: '#00FFFF',
+    //tenho que colocar o degrade ainda...
     alignItems: 'center',
     justifyContent: 'center',
   },
