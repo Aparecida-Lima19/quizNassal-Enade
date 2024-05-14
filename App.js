@@ -3,12 +3,13 @@ import { StyleSheet, Text, View } from 'react-native';
 
 import Title from './scr/components/title';
 
+
 export default function App() {
   return (
 
       <View style={styles.container}>
         <Title />
-        <StatusBar style="auto" />
+        
       </View>
     
   );
