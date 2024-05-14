@@ -20,7 +20,6 @@ const styles = StyleSheet.create({
     flex: 1,
     backgroundColor: '#00FFFF',
     //tenho que colocar o degrade ainda...
-    alignItems: 'center',
-    justifyContent: 'center',
+    padding: 80,
   },
 });
