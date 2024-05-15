@@ -1,18 +1,17 @@
-import React from "react";
-import { StatusBar} from "react-native"
+import React from 'react';
+import { StatusBar } from 'react-native';
 
-import { NavigationContainer } from "@react-navigation/native";
-import Routes from "./scr/routes";
-
+import { NavigationContainer } from '@react-navigation/native';
+import Routes
+ from './scr/routes';
 
 export default function App() {
   return (
-
     <NavigationContainer>
-      <StatusBar backgroundColor="black" barStyle="linght-content" />
+      <StatusBar backgroundColor="#000" barStyle="light-content"/>
       <Routes/>
     </NavigationContainer>
-    
   );
 }
+
 
