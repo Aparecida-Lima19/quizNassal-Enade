@@ -7,7 +7,7 @@ const styles = StyleSheet.create({
         padding: 10,
     },
     textTitle: {
-        color: "#FFFFFF",
+        color: "FFFFFF",
         //o texto não ficou em branco...
         fontSize: 25,
         fontWeight: "bold"

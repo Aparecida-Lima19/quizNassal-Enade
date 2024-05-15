@@ -1,18 +1,25 @@
-import React from "react";
-import { StatusBar} from "react-native"
+import { StatusBar } from 'expo-status-bar';
+import { StyleSheet, Text, View } from 'react-native';
 
-import { NavigationContainer } from "@react-navigation/native";
-import Routes from "./scr/routes";
-
+import Title from './scr/components/title';
 
 export default function App() {
   return (
 
-    <NavigationContainer>
-      <StatusBar backgroundColor="black" barStyle="linght-content" />
-      <Routes/>
-    </NavigationContainer>
+      <View style={styles.container}>
+        <Title />
+        <StatusBar style="auto" />
+      </View>
     
   );
 }
 
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: '#00FFFF',
+    //tenho que colocar o degrade ainda...
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+});
