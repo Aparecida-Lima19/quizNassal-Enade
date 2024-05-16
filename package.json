@@ -9,7 +9,11 @@
     "web": "expo start --web"
   },
   "dependencies": {
+    "@expo-google-fonts/faster-one": "^0.2.3",
+    "@expo-google-fonts/roboto": "^0.2.3",
+    "@react-navigation/native": "^6.1.17",
     "expo": "^51.0.2",
+    "expo-font": "~12.0.5",
     "expo-linear-gradient": "~13.0.2",
     "expo-status-bar": "~1.12.1",
     "global": "^4.4.0",
